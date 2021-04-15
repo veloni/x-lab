@@ -17,7 +17,7 @@ const Autorization = ({
 				</span>
 				{isCorrectLogPas && 
 					<span>
-						Login or Password isvalid
+						Login or Password is not valid
 					</span>}
 				<div className="wrapper-login-password">
 					<div className="wrapper-login">

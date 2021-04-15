@@ -61,10 +61,10 @@ const useLoadData = () => {
   }
 
   const keyExist = (responce) => {
-    setDataUsers(responce['data']);
+  /*   setDataUsers(responce['data']);
     setSaveDataForSort(responce['data']);
     
-    setIsAutorization(true);
+    setIsAutorization(true); */
   }
 
   const loadData = (responce) => {
