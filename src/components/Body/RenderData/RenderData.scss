@@ -1,0 +1,16 @@
+.wrapper-main {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper-switcher-user-data {
+  width: 90%;
+  height: auto;
+  border: 1px solid #88b3cc;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,90 @@
+.wrapper-switcher {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 3px solid #88b3cc;
+}
+
+.wrapper-sort {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-filter {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow-switcher {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.input-sort {
+  height: 30px;
+  width: 40%;
+  font-size: 12px;
+}
+
+@media (max-device-width: 1000px) {
+  .wrapper-filter {
+    font-size: 12px;
+  }
+  
+  .wrapper-sort {
+    font-size: 12px;
+  }
+
+  .input-sort {
+    font-size: 12px;
+  }
+}
+
+@media (max-device-width: 700px) {
+  .wrapper-filter {
+    font-size: 10px;
+    width: 30%;
+  }
+
+  .wrapper-sort {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  .input-sort {
+    font-size: 10px;
+  }
+}
+
+@media (max-device-width: 500px) {
+  .wrapper-filter {
+    font-size: 8px;
+    width: 40%;
+  }
+
+  .wrapper-sort {
+    width: 150px;
+    height: 150px;
+    font-size: 8px;
+  }
+
+  .input-sort {
+    height: 10px;
+    font-size: 8px;
+  }
+
+  .wrapper-switcher {
+    flex-direction: row;
+    height: 60px;
+  }
+}

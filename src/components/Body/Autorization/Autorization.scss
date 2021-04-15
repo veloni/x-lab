@@ -1,0 +1,122 @@
+.wrapper-autorization {
+  height: auto;
+  width:  auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-autorization {
+  height: 300px;
+  width: 400px;
+  background-color: #CEE0F2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 3px solid #88b3cc;
+  border-radius: 35px;
+}
+
+.wrapper-login-password {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-autorization {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.message { 
+  height: 30px;
+  color: red;
+}
+
+.text-autoriztion {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-login {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-password {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-login {
+  width: 70%;
+}
+
+.input-password {
+  width: 70%;
+}
+
+.autorization {
+  font-size: 20px;
+  cursor: pointer;
+  height: 20%;
+  width: 20%;
+	background-color:#8fc5e4;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px solid #88b3cc;
+  outline: none;
+}
+
+@media (max-device-width: 420px) {
+  .box-autorization { 
+    width: 100%;
+  }
+
+  .wrapper-autorization {
+    width: 90%;
+  }
+
+  .wrapper-login-password {
+    width: 90%;
+  }
+
+  .wrapper-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    font-size: 1rem;
+  }
+
+  .wrapper-password {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    font-size: 1rem;
+  }
+
+  .autorization {
+    width: 150px;
+  }
+
+  .input-login {
+    height: 20px;
+  }
+
+  .input-password {
+    height: 20px;
+  }
+}
