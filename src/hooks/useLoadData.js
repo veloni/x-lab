@@ -22,8 +22,8 @@ const useLoadData = () => {
           "username": logRef.current.value,
         } 
       })
-    .then (responce => giveToken(responce))  
-    .catch(setIsCorrectLogPas(true));
+      .then (responce => giveToken(responce))  
+      .catch(setIsCorrectLogPas(true));
   }
 
   useEffect(() => {

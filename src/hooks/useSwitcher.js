@@ -12,10 +12,9 @@ const useSwitcher = (
     const sorted = dataUser.sort((first, sec) => {
       const direction = directionSort ? 1 : -1 ;
 
-			const x = first.id;
-			const y = sec.id;
+      const newDataSorded = first.id < sec.id ? direction : first.id > sec.id ? -direction : 0;
 
-			return x < y ? direction : x > y ? -direction : 0;
+			return newDataSorded;
 		});
 
     setDataUsers(sorted);

@@ -1,7 +1,13 @@
 .data-user-wrapper {
-  height: auto;
+  height: 250px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+@media (max-device-width: 500px) {
+  .data-user-wrapper {
+    height: auto;
+  }
 }

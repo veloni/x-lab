@@ -19,11 +19,10 @@ const Switcher = ({
       <img
         alt="arrow"
         className="arrow-switcher"
-        src={!directionSort ? aroowUp : arrowDown}
+        src={directionSort ? arrowDown : aroowUp}
         onClick={() => sortById()}
       />
     </div>
-
     <div className="wrapper-sort">
       <span>
         Cортировка по userName
